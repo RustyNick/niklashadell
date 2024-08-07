@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Success</title>
+</head>
+<body>
+    <section class="container-full special-background flex_container go_center" aria-label="background image">
+        <div class="container flex_container go_center">
+            <div id="success-container" class="inner_container go_col white_background">
+                    <h2>Form submitted successfully!</h2>
+                <p>
+                    Form submitted successfully!
+                    Thank you! The form has been submitted successfully. We will reply to you soon!
+                </p>
+                <div class="inner_container_interactive">
+                    <button id="goBack">Go back</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const goBack = document.getElementById('goBack')
+
+        if(goBack){
+            goBack.addEventListener('click', ()=>{
+                return window.location = "http://127.0.0.1:5500/index.html";
+            })
+}
+
+    </script>
+</body>
+</html>
