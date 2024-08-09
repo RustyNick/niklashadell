@@ -11,4 +11,4 @@ export const projects = [
     }
 ];
 
-export const skills = ['html','css','javascript','php','wordpress','react','graphic design','adobe creative suit','streaming','video editing'];
+export const skills = ['html','css','javascript','php','wordpress','react','responsive design','graphic design','adobe creative suit','streaming','video editing'];
